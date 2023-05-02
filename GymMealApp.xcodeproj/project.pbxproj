@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B63758BE29FF0BFF0089CB9A /* GymMealAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758BD29FF0BFF0089CB9A /* GymMealAppApp.swift */; };
+		B63758C029FF0BFF0089CB9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758BF29FF0BFF0089CB9A /* ContentView.swift */; };
+		B63758C229FF0C020089CB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63758C129FF0C020089CB9A /* Assets.xcassets */; };
+		B63758C529FF0C020089CB9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63758C429FF0C020089CB9A /* Preview Assets.xcassets */; };
+		B63758D329FF66A80089CB9A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758D229FF66A80089CB9A /* HomeView.swift */; };
+		B63758D529FF66BC0089CB9A /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758D429FF66BC0089CB9A /* CategoriesView.swift */; };
+		B63758D729FF66D20089CB9A /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758D629FF66D20089CB9A /* NewRecipeView.swift */; };
+		B63758D929FF66E70089CB9A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758D829FF66E70089CB9A /* SettingsView.swift */; };
+		B63758DB29FF670A0089CB9A /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758DA29FF670A0089CB9A /* FavoritesView.swift */; };
+		B63758DD29FF69F30089CB9A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758DC29FF69F30089CB9A /* TabBar.swift */; };
+		B63758DF29FF8FA20089CB9A /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758DE29FF8FA20089CB9A /* RecipeModel.swift */; };
+		B63758E12A009FAD0089CB9A /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758E02A009FAD0089CB9A /* RecipeCard.swift */; };
+		B63758E32A00A5860089CB9A /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758E22A00A5860089CB9A /* RecipeList.swift */; };
+		B63758E52A00A7E00089CB9A /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758E42A00A7E00089CB9A /* RecipeView.swift */; };
+		B63758E72A00BB790089CB9A /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758E62A00BB790089CB9A /* CategoryView.swift */; };
+		B63758E92A00BFFF0089CB9A /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758E82A00BFFF0089CB9A /* AddRecipeView.swift */; };
+		B63758EB2A00CBE90089CB9A /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63758EA2A00CBE90089CB9A /* RecipesViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B63758BA29FF0BFF0089CB9A /* GymMealApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymMealApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63758BD29FF0BFF0089CB9A /* GymMealAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymMealAppApp.swift; sourceTree = "<group>"; };
+		B63758BF29FF0BFF0089CB9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B63758C129FF0C020089CB9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B63758C429FF0C020089CB9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B63758D229FF66A80089CB9A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B63758D429FF66BC0089CB9A /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		B63758D629FF66D20089CB9A /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
+		B63758D829FF66E70089CB9A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B63758DA29FF670A0089CB9A /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		B63758DC29FF69F30089CB9A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		B63758DE29FF8FA20089CB9A /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		B63758E02A009FAD0089CB9A /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		B63758E22A00A5860089CB9A /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
+		B63758E42A00A7E00089CB9A /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		B63758E62A00BB790089CB9A /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		B63758E82A00BFFF0089CB9A /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
+		B63758EA2A00CBE90089CB9A /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B63758B729FF0BFF0089CB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B63758B129FF0BFF0089CB9A = {
+			isa = PBXGroup;
+			children = (
+				B63758BC29FF0BFF0089CB9A /* GymMealApp */,
+				B63758BB29FF0BFF0089CB9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B63758BB29FF0BFF0089CB9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B63758BA29FF0BFF0089CB9A /* GymMealApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B63758BC29FF0BFF0089CB9A /* GymMealApp */ = {
+			isa = PBXGroup;
+			children = (
+				B63758BD29FF0BFF0089CB9A /* GymMealAppApp.swift */,
+				B63758CC29FF0D2D0089CB9A /* Views */,
+				B63758CD29FF0D3C0089CB9A /* ViewModels */,
+				B63758CE29FF0D580089CB9A /* Models */,
+				B63758C129FF0C020089CB9A /* Assets.xcassets */,
+				B63758C329FF0C020089CB9A /* Preview Content */,
+			);
+			path = GymMealApp;
+			sourceTree = "<group>";
+		};
+		B63758C329FF0C020089CB9A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B63758C429FF0C020089CB9A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B63758CC29FF0D2D0089CB9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B63758CF29FF0D8B0089CB9A /* Main */,
+				B63758D029FF0D960089CB9A /* Detail */,
+				B63758D129FF0DA30089CB9A /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B63758CD29FF0D3C0089CB9A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B63758EA2A00CBE90089CB9A /* RecipesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B63758CE29FF0D580089CB9A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B63758DE29FF8FA20089CB9A /* RecipeModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B63758CF29FF0D8B0089CB9A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B63758BF29FF0BFF0089CB9A /* ContentView.swift */,
+				B63758DC29FF69F30089CB9A /* TabBar.swift */,
+				B63758D229FF66A80089CB9A /* HomeView.swift */,
+				B63758D429FF66BC0089CB9A /* CategoriesView.swift */,
+				B63758D629FF66D20089CB9A /* NewRecipeView.swift */,
+				B63758DA29FF670A0089CB9A /* FavoritesView.swift */,
+				B63758D829FF66E70089CB9A /* SettingsView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B63758D029FF0D960089CB9A /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				B63758E42A00A7E00089CB9A /* RecipeView.swift */,
+				B63758E62A00BB790089CB9A /* CategoryView.swift */,
+				B63758E82A00BFFF0089CB9A /* AddRecipeView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		B63758D129FF0DA30089CB9A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B63758E02A009FAD0089CB9A /* RecipeCard.swift */,
+				B63758E22A00A5860089CB9A /* RecipeList.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B63758B929FF0BFF0089CB9A /* GymMealApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63758C829FF0C020089CB9A /* Build configuration list for PBXNativeTarget "GymMealApp" */;
+			buildPhases = (
+				B63758B629FF0BFF0089CB9A /* Sources */,
+				B63758B729FF0BFF0089CB9A /* Frameworks */,
+				B63758B829FF0BFF0089CB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GymMealApp;
+			productName = GymMealApp;
+			productReference = B63758BA29FF0BFF0089CB9A /* GymMealApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B63758B229FF0BFF0089CB9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B63758B929FF0BFF0089CB9A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B63758B529FF0BFF0089CB9A /* Build configuration list for PBXProject "GymMealApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B63758B129FF0BFF0089CB9A;
+			productRefGroup = B63758BB29FF0BFF0089CB9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B63758B929FF0BFF0089CB9A /* GymMealApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B63758B829FF0BFF0089CB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63758C529FF0C020089CB9A /* Preview Assets.xcassets in Resources */,
+				B63758C229FF0C020089CB9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B63758B629FF0BFF0089CB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63758E92A00BFFF0089CB9A /* AddRecipeView.swift in Sources */,
+				B63758D529FF66BC0089CB9A /* CategoriesView.swift in Sources */,
+				B63758E12A009FAD0089CB9A /* RecipeCard.swift in Sources */,
+				B63758D729FF66D20089CB9A /* NewRecipeView.swift in Sources */,
+				B63758D329FF66A80089CB9A /* HomeView.swift in Sources */,
+				B63758DD29FF69F30089CB9A /* TabBar.swift in Sources */,
+				B63758E72A00BB790089CB9A /* CategoryView.swift in Sources */,
+				B63758D929FF66E70089CB9A /* SettingsView.swift in Sources */,
+				B63758E52A00A7E00089CB9A /* RecipeView.swift in Sources */,
+				B63758E32A00A5860089CB9A /* RecipeList.swift in Sources */,
+				B63758DB29FF670A0089CB9A /* FavoritesView.swift in Sources */,
+				B63758C029FF0BFF0089CB9A /* ContentView.swift in Sources */,
+				B63758EB2A00CBE90089CB9A /* RecipesViewModel.swift in Sources */,
+				B63758BE29FF0BFF0089CB9A /* GymMealAppApp.swift in Sources */,
+				B63758DF29FF8FA20089CB9A /* RecipeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B63758C629FF0C020089CB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B63758C729FF0C020089CB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B63758C929FF0C020089CB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymMealApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PW6P87GW6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSC680.GymMealApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B63758CA29FF0C020089CB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymMealApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PW6P87GW6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CSC680.GymMealApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B63758B529FF0BFF0089CB9A /* Build configuration list for PBXProject "GymMealApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63758C629FF0C020089CB9A /* Debug */,
+				B63758C729FF0C020089CB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63758C829FF0C020089CB9A /* Build configuration list for PBXNativeTarget "GymMealApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63758C929FF0C020089CB9A /* Debug */,
+				B63758CA29FF0C020089CB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B63758B229FF0BFF0089CB9A /* Project object */;
+}
